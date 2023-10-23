@@ -1,0 +1,140 @@
+
+:root {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background: #f6f9ff;
+  color: #444444;
+}
+
+a {
+  color: #4154f1;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #717ff5;
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Nunito", sans-serif;
+}
+
+/*--------------------------------------------------------------
+# Main
+--------------------------------------------------------------*/
+
+/* Card */
+.card {
+  margin-bottom: 30px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
+}
+
+.card-header, .card-footer {
+  border-color: #ebeef4;
+  background-color: #fff;
+  color: #798eb3;
+  padding: 15px;
+}
+
+.card-title {
+  padding: 0px 0 5px 0;
+  font-size: 18px;
+  font-weight: 500;
+  color: #012970;
+  font-family: "Poppins", sans-serif;
+}
+.card-title span {
+  color: #899bbd;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card-body {
+  padding: 20px;
+}
+
+.card-img-overlay {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+/*--------------------------------------------------------------
+# Dashboard
+--------------------------------------------------------------*/
+
+/* Info Cards */
+.dashboard .info-card {
+  padding-bottom: 10px;
+}
+.dashboard .info-card h6 {
+  font-size: 28px;
+  color: #012970;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+.dashboard .card-icon {
+  font-size: 32px;
+  line-height: 0;
+  width: 64px;
+  height: 64px;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+.dashboard .sales-card .card-icon {
+  color: #4154f1;
+  background: #f6f6fe;
+}
+.dashboard .revenue-card .card-icon {
+  color: #2eca6a;
+  background: #e0f8e9;
+}
+.dashboard .customers-card .card-icon {
+  color: #ff771d;
+  background: #ffecdf;
+}
+
+.box{
+  padding: 5px 10px !important;
+  margin-top: 6px;
+}
+
+.filter{
+  border: 0.5px solid black;
+  border-radius: 50px;
+  padding: 0px 20px;
+}
+
+.login{
+  width: 400px;
+  height: 500px;
+  margin: auto;
+  margin-top: 100px;
+  padding: 50px;
+}
+
+.add_category{
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  margin-top: 200px;
+  padding: 50px;
+}
+
+.add_color{
+  width: 400px;
+  height: 380px;
+  margin: auto;
+  margin-top: 150px;
+  padding: 50px;
+}
+
+.add-pic-button{
+  width: 100%;
+  height: 100%;
+}
